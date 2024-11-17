@@ -10,6 +10,7 @@ export const Staticcomponents = [
         img: i1.src,
         product_img: i_1.src,
         description: "A beautifull 3rd moving cards",
+        demoLink: "https://shyam-jha.github.io/Fronchef-3dCssParallax-/",
         code: CodeSnippetBundle,
     },
 ];

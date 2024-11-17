@@ -8,6 +8,7 @@ export const Reactcomponents = [
         name: "Apple Carousel",
         link: "/comp/react/1",
         img: i1.src,
+        demoLink: "https://video-carousel-chi.vercel.app/",
         product_img: i_1.src,
         description: "A beautifull apple carousel",
         code: CodeSnippetBundle,

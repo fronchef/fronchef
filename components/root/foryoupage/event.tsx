@@ -13,15 +13,15 @@ import g2 from "@/src/root/images/g2.png"
 export function TimelineDemo() {
   const data = [
     {
-      title: "Free Portfolio",
+      title: "1) Free Portfolio",
       content: (
         <div>
-          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          <p className="text-neutral-200 text-lg font-normal mb-4">
             Get these premium design Portfolio with desired Customisations for free/discounted rate. 
           </p>
           <div className="flex gap-5 mb-10">
-            <p className="text-xs md:text-sm font-normal text-pink-600">Limited Time Offer</p>
-            <a href="/google" className="text-xs md:text-sm font-normal text-green-400">Register Yourself ↗</a>
+            <p className="text-base font-normal text-pink-600">Limited Time Offer</p>
+            <a href="/google" className="text-base font-normal text-green-400">Register Yourself ↗</a>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="flex flex-col border-2 border-gray-700 pt-4 px-2 rounded-sm">
@@ -32,7 +32,7 @@ export function TimelineDemo() {
                 height={500}
                 className="rounded-lg object-contain h-full md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
-                <div className="my-4 flex text-sm font-normal justify-center text-pink-600">Check Out Live Preview ↗</div>
+                <div className="my-4 flex text-sm font-normal justify-center text-pink-600"><a href="https://shyam-jha.github.io/ShyamSays/">Check Out Live Preview ↗</a></div>
             </div>
 
             <div className="flex flex-col border-2 border-gray-700 pt-4 px-2 rounded-sm">
@@ -43,7 +43,7 @@ export function TimelineDemo() {
                 height={500}
                 className="rounded-lg object-cover h-full md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
-                <div className="my-4 flex text-sm font-normal justify-center text-pink-600">Check Out Live Preview ↗</div>
+                <div className="my-4 flex text-sm font-normal justify-center text-pink-600"><a href="https://fronchef-portfolio1.vercel.app/">Check Out Live Preview ↗</a></div>
             </div>
 
             <div className="flex flex-col border-2 border-gray-700 pt-4 px-2 rounded-sm">
@@ -54,7 +54,7 @@ export function TimelineDemo() {
                 height={500}
                 className="rounded-lg object-cover h-full md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
-                <div className="my-4 flex text-sm font-normal justify-center text-pink-600">Check Out Live Preview ↗</div>
+                <div className="my-4 flex text-sm font-normal justify-center text-pink-600"><a href="https://shyam-jha.github.io/fronchef-portfolio2/">Check Out Live Preview ↗</a></div>
             </div>
 
             <div className="flex flex-col border-2 border-gray-700 pt-4 px-2 rounded-sm">
@@ -65,7 +65,7 @@ export function TimelineDemo() {
                 height={500}
                 className="rounded-lg object-cover h-full md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
-                <div className="my-4 flex text-sm font-normal justify-center text-pink-600">Check Out Live Preview ↗</div>
+                <div className="my-4 flex text-sm font-normal justify-center text-pink-600"><a href="https://portfolio.smaranjitghose.com/">Check Out Live Preview ↗</a></div>
             </div>
 
             <div className="flex flex-col border-2 border-gray-700 pt-4 px-2 rounded-sm">
@@ -76,7 +76,7 @@ export function TimelineDemo() {
                 height={500}
                 className="rounded-lg object-cover h-full md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
-                <div className="my-4 flex text-sm font-normal justify-center text-pink-600">Check Out Live Preview ↗</div>
+                <div className="my-4 flex text-sm font-normal justify-center text-pink-600"><a href="https://shyam-jha.github.io/fronchef-portfolio3/">Check Out Live Preview ↗</a></div>
             </div>            
             
           </div>
@@ -84,15 +84,14 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Contribute what matters",
+      title: "2) Contribute what matters",
       content: (
         <div>
-          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          <p className="text-neutral-200 text-xs md:text-lg font-normal mb-4">
             Contribute To our Open-Source project with ease navigation and documentation.
           </p>
           <div className="flex gap-5 mb-10">
-            <p className="text-xs md:text-sm font-normal text-pink-600">Submit a proposal</p>
-            <a href="/google" className="text-xs md:text-sm font-normal text-green-400">Learn how to contribute ↗</a>
+            <a href="https://github.com/fronchef/fronchef" className="text-base font-normal text-green-400">Learn how to contribute ↗</a>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="flex flex-col border-2 border-gray-700 pt-4 px-2 rounded-sm">

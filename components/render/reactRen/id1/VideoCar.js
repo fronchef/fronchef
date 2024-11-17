@@ -1,12 +1,12 @@
-export const VideoCar = `
-import gsap from "gsap";
+export const VideoCar = `import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-gsap.registerPlugin(ScrollTrigger);
+
 import { useEffect, useRef, useState } from "react";
 
-import { HightLightsSlides } from "../constants";
-import { pauseImg, playImg, replayImg } from "../utils";
+import { HightLightsSlides } from "../constant/index.js";
+import { pauseImg, playImg, replayImg } from "../constant/index.js";
+gsap.registerPlugin(ScrollTrigger);
 
 const VideoCarousel = () => {
   const videoRef = useRef([]);
@@ -60,7 +60,7 @@ const VideoCarousel = () => {
           // get the progress of the video
           const progress = Math.ceil(anim.progress() * 100);
 
-          if (progress != currentProgress) {
+          if (progress !== currentProgress) {
             currentProgress = progress;
 
             // set the width of the progress bar
@@ -94,7 +94,7 @@ const VideoCarousel = () => {
         },
       });
 
-      if (videoId == 0) {
+      if (videoId === 0) {
         anim.restart();
       }
 
@@ -102,7 +102,7 @@ const VideoCarousel = () => {
       const animUpdate = () => {
         anim.progress(
           videoRef.current[videoId].currentTime /
-            hightlightsSlides[videoId].videoDuration
+            HightLightsSlides[videoId].videoDuration
         );
       };
 
@@ -114,7 +114,7 @@ const VideoCarousel = () => {
         gsap.ticker.remove(animUpdate);
       }
     }
-  }, [videoId, startPlay]);
+  }, [videoId, startPlay, isPlaying]);
 
   useEffect(() => {
     if (loadedData.length > 3) {
@@ -159,7 +159,7 @@ const VideoCarousel = () => {
   return (
     <>
       <div className="flex items-center">
-        {hightlightsSlides.map((list, i) => (
+        {HightLightsSlides.map((list, i) => (
           <div key={list.id} id="slider" className="sm:pr-20 pr-10">
             <div className="video-carousel_container">
               <div className="w-full h-full flex-center rounded-3xl overflow-hidden bg-black">
@@ -232,5 +232,4 @@ const VideoCarousel = () => {
   );
 };
 
-export default VideoCarousel;
-`;
+export default VideoCarousel;`;
