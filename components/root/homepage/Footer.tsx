@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import i1 from "@/src/root/images/logoo.png"
 
 const Footer = () => {
     return (
@@ -32,13 +34,10 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
                         <div className="flex items-center gap-4">
-                            <Link href="#" className="text-sm hover:underline" prefetch={false}>
-                                Twitter
-                            </Link>
-                            <Link href="#" className="text-sm hover:underline" prefetch={false}>
+                            <Link href="https://www.linkedin.com/in/shyam-jha-0642ab258" className="text-sm hover:underline" prefetch={false}>
                                 LinkedIn
                             </Link>
-                            <Link href="#" className="text-sm hover:underline" prefetch={false}>
+                            <Link href="https://github.com/fronchef/fronchef" className="text-sm hover:underline" prefetch={false}>
                                 GitHub
                             </Link>
                         </div>
@@ -46,13 +45,20 @@ const Footer = () => {
                 </div>
 
                 {/* Right Part: Icons & One-Liner */}
-                <div className="flex flex-col md:flex-row items-center md:items-end gap-4 mt-8 md:mt-0">
+                <div className="flex max-sm:w-full flex-col md:flex-row items-center md:items-end gap-4 mt-16 sm-mt-8 md:mt-0">
                     {/* Icons */}
+                    <div className=" flex max-sm:w-full flex-col justify-center items-center gap-4">
+                        <Image
+                        src={i1}
+                        alt="DreamUI Team"
+                        className="rounded-md transition-transform duration-300 hover:scale-105 w-[130px] sm:w-[200px]" // Tailwind classes for width
+                        />
+                        
+                        <p className="text-sm text-gray-400 text-center md:text-right">
+                            &copy; 2024 Fronchef. All rights reserved.
+                        </p>
+                    </div>
 
-                    {/* One-Liner */}
-                    <p className="text-sm text-gray-400 text-center md:text-right">
-                        &copy; 2024 Dream UI. All rights reserved.
-                    </p>
                 </div>
             </div>
         </footer>

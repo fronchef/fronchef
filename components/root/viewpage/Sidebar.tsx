@@ -19,7 +19,7 @@ const Sidebar = () => {
              
             <div className="flex flex-col gap-1">
                 <h1 className="text-base font-extrabold text-green-400">Follow for Updates</h1>
-                <a href='https://github.com/shyam-jha/DreamUi' className="text-xs font-bold text-zinc-400">Github @dreamUI</a>
+                <a href='https://github.com/fronchef/fronchef' className="text-xs font-bold text-zinc-400">Github @Fronchef</a>
             </div>
 
             <div className="flex flex-col gap-1 ">
@@ -35,7 +35,7 @@ const Sidebar = () => {
             </div>
 
             <div className="flex flex-col gap-5">
-                <h1 className="text-base font-extrabold text-pink-600">All Components</h1>
+                <a href='/comp' className="text-base font-extrabold text-pink-600">All Components</a>
 
                 {showNext && (
                     <>

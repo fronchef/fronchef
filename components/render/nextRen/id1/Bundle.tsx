@@ -8,9 +8,12 @@ export const CodeSnippetBundle = {
         { name: "components/CodeSnippet.tsx", code: CodeBlockSnippet },
         { name: "components/CopyButton.tsx", code: CopyButtonSnippet },
     ],
-    Modifications: '',
+    Modifications: [        
+        { name: "", code: "" },
+    ],
     dependencies: [
         'npm install react-syntax-highlighter --save',
         'npm install @heroicons/react',
-    ],
+    ],   
+    message: []
 };

@@ -37,14 +37,21 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-4xl mx-4 py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-white max-w-4xl">
-        Just for You
-        </h2>
-        <p className="text-neutral-300 text-sm md:text-base">
-        Discover events, updates, and exclusive highlights curated for you. Stay updated on what’s happening and never miss out on exciting moments.
-        </p>
-      </div>
+    <div className="flex justify-center items-center gap-5 flex-col mx-4 py-5 md:py-20 px-4 md:px-8 lg:px-10 bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 rounded-lg shadow-xl">
+    <h2 className="text-3xl md:text-6xl md:mb-6 text-white max-w-4xl text-center font-bold tracking-wide transform transition duration-500 hover:scale-105 hover:text-yellow-300">
+        Just for You Page
+    </h2>
+    <p className="block md:hidden text-white text-lg mb-6 max-w-5xl text-center leading-relaxed">
+    Discover events, updates, and exclusive highlights curated for you. Stay updated on what&apos;s happening and never miss out on exciting moments.
+    </p>
+    <p className="hidden md:block text-white text-lg mb-6 max-w-5xl text-center leading-relaxed">
+        Discover events, updates, and exclusive highlights curated for you. Stay updated on what&apos;s happening and never miss out on exciting moments. Our platform brings you the best of all worlds in one place, so you can focus on what truly matters to you. Whether it&apos;s the latest news, exclusive offers, or exciting events, we&apos;ve got something special waiting for you.
+    </p>
+    <p className="hidden md:block text-white text-lg max-w-xl text-center leading-relaxed">
+        Join the community of like-minded individuals who are always in the loop and connected. Don&apos;t miss out on making unforgettable memories and taking part in the next big thing. We believe in curating experiences that matter, just for you!
+    </p>
+</div>
+
 
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
@@ -85,6 +92,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           />
         </div>
       </div>
+      
     </div>
   );
 };

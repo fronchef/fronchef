@@ -8,7 +8,8 @@ export const CodeSnippetBundle = {
         { name: "Css Code", code: CssCode },
         { name: "Javascipt Code", code: JavascriptCode },
     ],
-    Modifications: '',
-    dependencies: [
+    dependencies: [],
+    message: [
+        `This is not a responsive component works best on md and greater screens.`
     ],
 };
