@@ -11,7 +11,6 @@ export const Nextcomponents = [
     demoLink: 'https://shyam-jha.github.io/Fronchef-CodeSnippet/',
     product_img: i_1.src,
     description: "A beautifull code snippet",
-    ComponentPath: "@/components/render/nextRen/BorderBox",
     code: CodeSnippetBundle,
   },
 ];
