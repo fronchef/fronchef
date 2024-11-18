@@ -69,15 +69,15 @@ export function ReachUsForm() {
                                     <div className="grid gap-2">
                                         <div className="flex items-center gap-2">
                                             <MapPinIcon className="h-5 w-5 text-white" />
-                                            <p>Eastablishing Soon</p>
+                                            <p>Establishing Soon</p>
                                         </div>
                                         <div className="flex items-center gap-2">
                                             <PhoneIcon className="h-5 w-5 text-white" />
                                             <p>+91 8595987774</p>
-                                        </div>
+                                        </div>  
                                         <div className="flex items-center gap-2">
                                             <MailIcon className="h-5 w-5 text-white" />
-                                            <p>shyamjhaedu@gmail.com</p>
+                                            <p>fronchef@gmail.com</p>
                                         </div>
                                     </div>
                                     <div className="flex gap-4">
