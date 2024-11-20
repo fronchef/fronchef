@@ -1,4 +1,9 @@
 import { ReachUsForm } from "@/components/root/reachpage/Reach";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Reach Us",
+};
 
 const Aboutpage = () => {
     return (

@@ -1,5 +1,10 @@
 
 import Sidebar from "@/components/root/viewpage/Sidebar";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Installation Guide",
+};
 
 
 export default function RootLayout({

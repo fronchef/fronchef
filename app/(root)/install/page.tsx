@@ -1,6 +1,8 @@
 "use client";
 import CodeBlock from "@/components/root/renderpage/CodeBlock";
 
+
+
 const InstallPage = () => {
     const scrollToTailwindSetup = () => {
         document.getElementById("tailwind-setup")?.scrollIntoView({ behavior: "smooth" });
