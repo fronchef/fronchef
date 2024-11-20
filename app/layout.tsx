@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     "static websites",
     "Fronchef",
   ],
+  twitter: {
+    card: "summary_large_image",
+  },
   icons: {
     icon: "/favicon.png", // Path to your favicon
   },
