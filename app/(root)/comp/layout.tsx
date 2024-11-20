@@ -1,7 +1,13 @@
-
 import Sidebar from "@/components/root/viewpage/Sidebar";
+import { Metadata } from "next";
 
 
+export const metadata: Metadata = {
+    title: "Components",
+    description:
+      "Fronchef provides open-source UI components for Next.js, React, and static HTML, as well as affordable website building services for Wix, WordPress, Next.js, MERN, and static sites. Build your website with ease and flexibility.",
+    
+  };
 
 export default function RootLayout({
     children,

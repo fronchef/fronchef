@@ -1,4 +1,10 @@
 import { TimelineDemo } from "@/components/root/foryoupage/event";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "For You",
+};
+
 
 
 const Foryou = () => {
