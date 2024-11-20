@@ -1,7 +1,10 @@
-import founderPhoto from "@/src/root/images/shyam.jpeg"; // Example image import
+import founderPhoto from "@/src/root/images/shyam1.png"; // Example image import
+import lalitPhoto from "@/src/root/images/lalit.png";
 import cofounderPhoto from "@/src/root/images/yuvraj.jpeg";
 import designer1Photo from "@/src/root/images/khushi.jpeg";
-import designer2Photo from "@/src/root/images/sukriti.jpeg";
+import designer2Photo from "@/src/root/images/sukriti.png";
+import fav from "@/public/favicon.png";
+import tr from "../images/try.png";
 import { FaLinkedin, FaGithub, FaLink } from "react-icons/fa"; // Import 
 import uiComponentSVG from "@/src/root/svgs/exp1.svg";
 import wordpressSVG from "@/src/root/svgs/exp2.svg";
@@ -40,12 +43,28 @@ export const teamMembers = [
     },
     {
         id: 4,
+        name: "Lalit Sain",
+        title: "Founding Member / Logistics Head",
+        desc: "Lalit is the backbone of our operations, ensuring seamless coordination and efficient logistics.",
+        linkedin: "https://github.com/bobbrown", // Update the correct LinkedIn URL
+        photo: lalitPhoto, // Use the imported image
+    },
+    {
+        id: 5,
         name: "Sukriti Singh",
         title: "Founding Member / Designer",
         desc: "Specializes in UI/UX design and loves turning ideas into reality.",
         linkedin: "https://github.com/bobbrown",
         photo: designer2Photo, // Use the imported image
     },
+    {
+        id: 6,
+        name: "A Special Thanks",
+        title: "to all the Contributing Members of Fronchef",
+        desc: "Throughout our journey, various developers and members have contributed to the excellence of Fronchef. We warmly welcome and thank each one of you for your invaluable support.",
+        photo: fav, // Use the imported image
+    },
+    
 ];
 
 

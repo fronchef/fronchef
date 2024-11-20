@@ -29,9 +29,9 @@ const MeetTheTeam: React.FC = () => {
                             <Image
                                 src={member.photo}
                                 alt={member.name}
-                                width={128}
-                                height={128}
-                                className="rounded-full lg:w-32 md:w-20 w-16 object-contain"
+                                width={200}
+                                height={150}
+                                className="rounded-full h-[10rem] w-[10rem] object-cover"
                             />
                             <div className="text-center mt-4">
                                 <h1 className="text-xl md:text-2xl font-bold">{member.name}</h1>
