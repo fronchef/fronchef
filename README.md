@@ -111,7 +111,8 @@ Fronchef thrives on community contributions! Follow these steps to add your comp
 
 ### **Video Tutorial**  
 Need more help? Check out our detailed tutorial on YouTube!  
-[![Watch the tutorial]![logoo](https://github.com/user-attachments/assets/9d425b7a-9a8b-4cf3-9cf1-73461649d199)(https://www.youtube.com)
+[![Watch the tutorial](https://github.com/user-attachments/assets/9d425b7a-9a8b-4cf3-9cf1-73461649d199)](https://www.youtube.com)
+
 
 ---
 
