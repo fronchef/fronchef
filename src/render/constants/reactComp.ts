@@ -13,4 +13,16 @@ export const Reactcomponents = [
         description: "A beautifull apple carousel",
         code: CodeSnippetBundle,
     },
+    /*
+    {
+        id: "",
+        name: "",
+        link: "/comp/react/[n+1]",
+        img: "", //thumbnail
+        demoLink: "", //your deployed demo link
+        product_img: "", //overview
+        description: "",
+        code: "",
+    },
+    */
 ];

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaGithub, FaLinkedin, FaBars, FaTimes, FaCaretDown } from "react-icons/fa"; // Import icons
+import { FaGithub, FaEnvelope, FaLinkedin, FaBars, FaTimes, FaCaretDown } from "react-icons/fa"; // Import icons
 import Search from "./Search";
 import Link from "next/link";
 import i1 from "@/src/root/images/nav4.png";
@@ -19,7 +19,7 @@ const Navbar = () => {
                         <div className="flex items-center">
                             <Image
                                 src={i1}
-                                alt="DreamUI Team"
+                                alt="Fronchef"
                                 className="rounded-md transition-transform duration-300 hover:scale-105 w-[90px] sm:w-[130px]"
                             />
                         </div>
@@ -99,13 +99,12 @@ const Navbar = () => {
                                 <FaGithub size={16} />
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/shyam-jha-0642ab258/"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                href="mailto:fronchef@gmail.com"
                                 className="hover:text-blue-200"
                             >
-                                <FaLinkedin size={16} />
+                                <FaEnvelope size={16} />
                             </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -121,13 +120,12 @@ const Navbar = () => {
                         <FaGithub size={24} />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/shyam-jha-0642ab258/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="mailto:fronchef@gmail.com"
                         className="hover:text-blue-200"
                     >
-                        <FaLinkedin size={24} />
+                        <FaEnvelope size={24} />
                     </a>
+                    
 
                     <Search />
                 </div>
