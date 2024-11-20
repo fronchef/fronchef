@@ -1,7 +1,6 @@
 # **Fronchef**
 
-
-![Fronchef banner](https://github.com/user-attachments/assets/fafa8f95-3f81-4540-8a3e-9748ad8fcffb)
+![logoo](https://github.com/user-attachments/assets/9d425b7a-9a8b-4cf3-9cf1-73461649d199)
 
 ### **Your Ultimate UI Component Library**  
 Fronchef is a comprehensive open-source UI component library designed to simplify development across various frameworks. With Fronchef, you can quickly create visually appealing and responsive applications while adhering to industry best practices.  
@@ -74,7 +73,7 @@ Fronchef thrives on community contributions! Follow these steps to add your comp
 
   2. Your `Bundle.tsx` will look like this after completion:  
      
-     ![Example](https://github.com/user-attachments/assets/19876cb7-ea45-4e29-a199-13b853b1e233)
+     ![Example](https://github.com/user-attachments/assets/e3ae1895-350d-4691-a2e5-aed111dc55c7)
 
 
 #### Step 5: **Prepare Images**  
@@ -91,8 +90,7 @@ Fronchef thrives on community contributions! Follow these steps to add your comp
   ```
 - Add details about your component, including the thumbnail, overview, and bundle.
 
-![Demo](https://github.com/user-attachments/assets/97dd0312-f6f3-4780-bd8c-4c12d28fcd7a)
-
+![Demo](https://github.com/user-attachments/assets/e6abbe41-6a1f-45c2-a680-8db4a410d2cf)
 
 #### Step 7: **Push Your Changes**  
 - Push the changes to your forked repository:  
@@ -113,7 +111,7 @@ Fronchef thrives on community contributions! Follow these steps to add your comp
 
 ### **Video Tutorial**  
 Need more help? Check out our detailed tutorial on YouTube!  
-[![Watch the tutorial]![Fronchef banner](https://github.com/user-attachments/assets/fafa8f95-3f81-4540-8a3e-9748ad8fcffb)(https://www.youtube.com)
+[![Watch the tutorial]![logoo](https://github.com/user-attachments/assets/9d425b7a-9a8b-4cf3-9cf1-73461649d199)(https://www.youtube.com)
 
 ---
 
