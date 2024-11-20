@@ -59,7 +59,7 @@ Fronchef thrives on community contributions! Follow these steps to add your comp
   2. `Bundle.tsx`: Defines your component's metadata with this structure:  
      ```typescript
      export const CodeSnippetBundle = {
-         code: "", // Your component in string format
+         code: "", // Your component imported in string format
          SrcCode: [
              { name: "", code: "" }, // Helper components
          ],
