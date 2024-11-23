@@ -90,7 +90,7 @@ const Components = () => {
                 <h1 className="text-2xl text-green-400 font-extrabold">Installation</h1>
 
                 {component?.code?.dependencies?.length ? (
-                    <div id="dependency" className="mt-10">
+                    <div id="dependency" className="my-10">
                         <h2>Install all these dependencies</h2>
                         {component.code.dependencies.map((dependency, index) => (
                             <CodeBlock key={index} id={`dependency${index + 1}`} code={dependency} />
@@ -99,7 +99,7 @@ const Components = () => {
                 ) : null}
 
                 {component?.code?.Modifications?.some(mod => mod.name && mod.code) ? (
-                    <div id="Modifications" className="mt-10">
+                    <div id="Modifications" className="my-10">
                         <h2 className="text-2xl text-green-400 font-extrabold">Make these Modifications</h2>
                         {component.code.Modifications.map((modification, index) =>
                             modification.name || modification.code ? (
@@ -115,7 +115,7 @@ const Components = () => {
                 ) : null}
 
                 {component?.code?.SrcCode?.some(src => src.name && src.code) ? (
-                    <div id="SrcCode" className="mt-10">
+                    <div id="SrcCode" className="my-10">
                         <h2 className="text-2xl text-green-400 font-extrabold">Add these files to your application</h2>
                         {component.code.SrcCode.map((src, index) =>
                             src.name || src.code ? (
@@ -131,7 +131,7 @@ const Components = () => {
                 ) : null}
 
                 {component?.code?.message?.length ? (
-                    <div id="message" className="mt-10">
+                    <div id="message" className="my-10">
                         <h2 className="text-2xl text-green-400 font-extrabold">Additional Information</h2>
                         {component.code.message.map((msg, index) => (
                             <div key={index} className="mt-4" dangerouslySetInnerHTML={{ __html: msg }} />

@@ -6,10 +6,7 @@ export async function generateMetadata({
 }: {
   params: { id: string };
 }): Promise<Metadata> {
-  // Parse the component ID from params
-  console.log(params);
   const componentId = parseInt(params.id, 10);
-  console.log(componentId);
   const component = Reactcomponents.find((comp) => comp.id === componentId);
 
   if (!component) {

@@ -21,7 +21,7 @@ export function TimelineDemo() {
           </p>
           <div className="flex gap-5 mb-10">
             <p className="text-base font-normal text-pink-600">Limited Time Offer</p>
-            <a href="/google" className="text-base font-normal text-green-400">Register Yourself ↗</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaWnl6kMM8_Fs6pyZqO4BzTbVYXwDwj8-4VHSQv7xtL9hIQQ/viewform" className="text-base font-normal text-green-400">Register Yourself ↗</a>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="flex flex-col border-2 border-gray-700 pt-4 px-2 rounded-sm">
