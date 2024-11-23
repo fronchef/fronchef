@@ -112,7 +112,7 @@ const Components = () => {
                 ) : null}
 
                 {component?.code?.Modifications?.some(modification => modification.name && modification.code) ? (
-                    <div id="Modifications" className="mt-10">
+                    <div id="Modifications" className="my-10">
                         <h2>Make these Modifications</h2>
                         {/* Loop through Modifications array */}
                         {component.code.Modifications.map((modification, index) => (
@@ -130,7 +130,7 @@ const Components = () => {
 
 
                 {component?.code?.SrcCode?.some(src => src.name && src.code) ? (
-                    <div id="SrcCode" className="mt-10">
+                    <div id="SrcCode" className="my-10">
                         <h2>Source Code</h2>
                         {/* Loop through SrcCode array */}
                         {component.code.SrcCode.map((src, index) => (
@@ -147,7 +147,7 @@ const Components = () => {
                 ) : null}
 
                 {component?.code?.message?.length ? (
-                    <div id="message" className="mt-10">
+                    <div id="message" className="my-10">
                         <h2 className="text-2xl text-green-400 font-extrabold">Additional Information</h2>
                         {component.code.message.map((msg, index) => (
                             <div key={index} className="mt-4" dangerouslySetInnerHTML={{ __html: msg }} />

@@ -80,7 +80,7 @@ const Components = () => {
 
                 {/* Render dependencies if available */}
                 {component?.code?.dependencies?.length ? (
-                    <div id="dependencies" className="mt-10">
+                    <div id="dependencies" className="my-10">
                         <h2>Add these to your index.html</h2>
                         {component.code.dependencies.map((dependency, index) => (
                             <CodeBlock key={index} id={`dependency-${index}`} code={dependency} />
@@ -90,7 +90,7 @@ const Components = () => {
 
                 {/* Render each code block (HTML, CSS, JS) */}
                 {component?.code?.SrcCode?.some(src => src.name && src.code) ? (
-                    <div id="SrcCode" className="mt-10">
+                    <div id="SrcCode" className="my-10">
                         <h2>Source Code</h2>
                         {/* Loop through SrcCode array */}
                         {component.code.SrcCode.map((src, index) => (
@@ -107,7 +107,7 @@ const Components = () => {
                 ) : null}
 
                 {component?.code?.message?.length ? (
-                    <div id="message" className="mt-10">
+                    <div id="message" className="my-10">
                         <h2 className="text-2xl text-green-400 font-extrabold">Additional Information</h2>
                         {component.code.message.map((msg, index) => (
                             <div key={index} className="mt-4" dangerouslySetInnerHTML={{ __html: msg }} />
