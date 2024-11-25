@@ -1,5 +1,5 @@
-import { exampleComponent } from "./exampleComponent";
-import { globalCssModification } from "./GlobalCssModification";
+import {exampleComponent } from "./exampleComponent";
+import {globalCssModification } from "./GlobalCssModification";
 import {AboutComponentJsx} from "./aboutComponent"
 
 export const CodeSnippetBundle2 = {
