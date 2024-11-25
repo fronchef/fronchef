@@ -4,10 +4,10 @@ import {indexCssModification } from "./modification/indexCSS.js";
 import {tailwindConfigJsModification } from "./modification/tailwindconfig.js";
 import { VideoCar } from './VideoCar.js';
 
-export const CodeSnippetBundle = {
+export const CodeSnippetBundle1 = {
     code: ExampleComponent,
     SrcCode: [
-        { name: "components/VideoCarousel.tsx", code: VideoCar },
+        { name: "components/VideoCarousel.jsx", code: VideoCar },
         { name: "constant/index.js", code: HighLightsSlides },
     ],
     Modifications: [
