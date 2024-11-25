@@ -4,7 +4,7 @@ import { CopyButtonSnippet } from './CopyButtonSnippet.js';
 import {tailwindConfigTsModification} from './tailwindconfigmod.js';
 import {globalCssModification} from './globalcssmod.js';
 
-export const CodeSnippetBundle = {
+export const CodeSnippetBundle1 = {
     code: ExampleComponentCode,
     SrcCode: [
         { name: "components/CodeSnippet.tsx", code: CodeBlockSnippet },
