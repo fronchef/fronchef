@@ -20,7 +20,7 @@ export const Nextcomponents = [
   {
       id: 2,
       name: "Fluid Scroll in Next",
-      link: "/comp/react/2",
+      link: "/comp/next/2",
       img: i2.src, //thumbnail
       demoLink: "https://fronchef-react-comp2.vercel.app/", //your deployed demo link
       product_img: i2.src, //overview
