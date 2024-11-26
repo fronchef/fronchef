@@ -34,7 +34,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
                         <div className="flex items-center gap-4">
-                            <Link href="https://www.linkedin.com/in/shyam-jha-0642ab258" className="text-sm hover:underline" prefetch={false}>
+                            <Link href="https://www.linkedin.com/company/fronchef/" className="text-sm hover:underline" prefetch={false}>
                                 LinkedIn
                             </Link>
                             <Link href="https://github.com/fronchef/fronchef" className="text-sm hover:underline" prefetch={false}>
